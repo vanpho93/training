@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "outDir": "./dist",
+    "strict": true,
+    "strictNullChecks": false,
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "./typescript/*"
+      ]
+    },
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}
